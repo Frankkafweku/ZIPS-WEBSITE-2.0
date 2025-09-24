@@ -1,0 +1,167 @@
+
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004080;
+      color: white;
+      padding: 15px 30px;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+
+
+/* Logos inside header */
+.logos {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;   /* adjust as needed */
+  width: auto;
+  border-radius: 6px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+    /* Dropdown */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropbtn {
+      background-color: #004080;
+      color: white;
+      padding: 10px 16px;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropbtn:hover {
+      background-color: #003060;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #004080;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+
+   /* Welcome Section */
+.welcome {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background: #f9f9ff;
+  border: 2px solid #004080;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.welcome p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #222;
+}
+
+.welcome a {
+  color: #004080;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.welcome a:hover {
+  color: #002850;
+  text-decoration: underline;
+}
+
+
+
+
+    main {
+  padding: 30px;
+  text-align: center;
+}
+
+.year-title {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+.year-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.year-box {
+  background-color: #f2f2f2;
+  border: 2px solid #004080;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #004080;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.year-box:hover {
+  background-color: #004080;
+  color: white;
+}
