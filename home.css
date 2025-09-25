@@ -360,3 +360,20 @@ footer a:hover {
     font-size: 0.8rem;
   }
 }
+
+
+
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    margin-left: auto;  /* pushes it to the right */
+    margin-right: 10px; /* adds a small gap from the edge */
+  }
+
+  .menu-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* aligns hamburger to the right */
+  }
+}
