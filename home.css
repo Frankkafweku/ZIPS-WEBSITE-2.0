@@ -377,3 +377,13 @@ footer a:hover {
     justify-content: flex-end; /* aligns hamburger to the right */
   }
 }
+
+
+
+
+.year-box {
+  text-decoration: none; /* removes underline for links */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
