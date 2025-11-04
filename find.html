@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find a Tutor - ZIPS CBU</title>
+  <link rel="stylesheet" href="find.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Find a Tutor</h1>
+  </header>
+
+  <main>
+    <p class="intro">
+      Welcome to the find a Tutor section. Here you can find tutors for various courses 
+      offered in purchasing and supply. Click a tutor’s card to view their contact information.
+    </p>
+
+    <section class="tutor-grid">
+      <!-- Tutor Card Example -->
+      <div class="tutor-card" onclick="showTutorInfo('john')">
+        <img src="tutors/john.jpg" alt="Mr. Banda">
+        <h4>mR. Banda</h4>
+        <p>Courses:BSP 244, BSP 238, BSP 220, BSP 110</p>
+      </div>
+
+      <div class="tutor-card" onclick="showTutorInfo('mary')">
+        <img src="tutors/mary.jpg" alt="Prosper Chisabi">
+        <h4>Prosper Chisabi</h4>
+        <p>Courses: BSP 244, BSP 238, BSP 220, BSP 110</p>
+      </div>
+
+      <div class="tutor-card" onclick="showTutorInfo('frank')">
+        <img src="tutors/frank.jpg" alt="Salt">
+        <h4>Salt</h4>
+        <p>Courses: BSP 140, BSP 244</p>
+      </div>
+    </section>
+
+    <!-- Tutor Info Modal -->
+    <section id="tutor-info" class="tutor-info hidden">
+      <h3 id="tutor-name"></h3>
+      <p id="tutor-contact"></p>
+      <button onclick="closeTutorInfo()">Close</button>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Zambian Institute of Purchasing and Supply - CBU Chapter</p>
+  </footer>
+
+  <script src="find.js"></script>
+</body>
+</html>
