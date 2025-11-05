@@ -4,17 +4,17 @@ function showTutorInfo(name) {
   const infoSection = document.getElementById('tutor-info');
 
   const tutors = {
-    john: {
-      name: 'John Banda',
-      contact: 'Phone: +260 970 000 001 | Email: johnbanda@gmail.com',
+    death: {
+      name: 'Mr. Banda',
+      contact: 'Phone: 0772692888 | Email: banda@gmail.com',
     },
-    mary: {
-      name: 'Mary Chileshe',
-      contact: 'Phone: +260 970 000 002 | Email: marychileshe@gmail.com',
+    prosper: {
+      name: 'Prosper Chisabi',
+      contact: 'Phone: 0776336000 | Email: @gmail.com',
     },
-    frank: {
-      name: 'Frank Kafweku III',
-      contact: 'Phone: +260 970 304 009 | Email: frankkafweku84@gmail.com',
+    salt: {
+      name: 'Salt tutorials',
+      contact: 'Phone: 0964736805 | Email: @gmail.com',
     },
   };
 
