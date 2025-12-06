@@ -220,7 +220,7 @@ main {
 
 /* ✅ FIXED EXECUTIVE IMAGES — normal rectangular, centered, responsive */
 .exec-card img {
-  width: 100%;
+  width: 60%;
   height: 220px;
   object-fit: cover;  
   display: block;
@@ -436,6 +436,10 @@ footer a:hover {
     font-size: 1.5rem;
     cursor: pointer;
   }
+  /* .pic{
+    width: 200px;
+    height: 100px; 
+  } */
 }
 
 
@@ -454,7 +458,7 @@ footer a:hover {
     top: 20px;
   
     right: 30px;
-    font-size: 58px;
+    font-size: 18px;
     font-weight: 500;
     z-index: 1000;
   }
