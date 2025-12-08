@@ -436,6 +436,9 @@ footer a:hover {
     font-size: 1.5rem;
     cursor: pointer;
   }
+   .desktop-nav{
+    display:none;
+   }
   /* .pic{
     width: 200px;
     height: 100px; 
@@ -455,7 +458,7 @@ footer a:hover {
     display: flex;
     gap: 25px;
     position: absolute;
-    top: 20px;
+    top: 100px;
   
     right: 30px;
     font-size: 18px;
@@ -465,7 +468,7 @@ footer a:hover {
 
   .desktop-nav a {
     text-decoration: none;
-    color: #ffffff; /* Change this if your header background is white */
+    color #00aaff; /* Change this if your header background is white */
     transition: 0.3s ease;
   }
 
